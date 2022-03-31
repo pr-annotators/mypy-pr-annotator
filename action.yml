@@ -1,0 +1,7 @@
+name: "Mypy PR Annotator"
+author: "Joe Young"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "::add-matcher::problem-matcher.json"
+      shell: bash
