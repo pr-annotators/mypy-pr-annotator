@@ -1,4 +1,5 @@
 name: "Mypy PR Annotator"
+description: "Annotate pull requests with mypy errors detected during CI"
 author: "Joe Young"
 runs:
   using: "composite"
