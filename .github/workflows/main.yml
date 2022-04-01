@@ -16,7 +16,7 @@ jobs:
           pip install mypy
 
       - name: Add mypy annotator
-        uses: pr-annotators/mypy-pr-annotator@master
+        uses: pr-annotators/mypy-pr-annotator@v0.0.3
 
       - name: Run mypy
         run: |
