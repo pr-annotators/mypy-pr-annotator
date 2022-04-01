@@ -1,5 +1,7 @@
 # Mypy PR Annotator
 
+![demo](images/demo.png)
+
 ## Usage
 
 Annotate pull requests with mypy errors detected during CI.
@@ -27,7 +29,7 @@ jobs:
           pip install mypy
 
       - name: Add mypy annotator
-        uses: jpy-git/mypy-pr-annotator@master
+        uses: pr-annotators/mypy-pr-annotator@v1.0.0
 
       - name: Run mypy
         run: |

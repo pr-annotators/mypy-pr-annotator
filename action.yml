@@ -1,5 +1,8 @@
 name: "Mypy PR Annotator"
 description: "Annotate pull requests with mypy errors detected during CI"
+branding:
+  icon: "check-circle"
+  color: "green"
 author: "Joe Young"
 runs:
   using: "composite"
